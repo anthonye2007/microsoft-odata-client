@@ -2693,6 +2693,9 @@ namespace Microsoft.OData.Client
                                 // since we do not automatically include the expansions in the URI. Users who wishes to 
                                 // project into navigation properties must manually expand those that are been selected.
                                 break;
+                            case UriHelper.OPTIONSEARCH:
+                                // This is a hack to hopefully support adding '$search' as a query option
+                                break;
                             case UriHelper.OPTIONFORMAT:
                                 ThrowNotSupportedExceptionForTheFormatOption();
                                 break;

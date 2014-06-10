@@ -87,6 +87,9 @@ namespace Microsoft.OData.Client
         /// <summary>The $format query option.</summary>
         internal const string OPTIONFORMAT = "format";
 
+        /// <summary>The $search query option.</summary>
+        internal const string OPTIONSEARCH = "search";
+
         /// <summary>true</summary>
         internal const string COUNTTRUE = "true";
 
